@@ -1,0 +1,43 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	TutorialSword: {
+		DisplayName: Darkness Sealer
+		Tooltip: Shoots a slow moving projectile, perfect for fast bosses. Looks like it came from royalty...
+	}
+
+	TRB: {
+		DisplayName: TRB
+		Tooltip: Three round burst pistol.
+	}
+
+	KnockBow: {
+		DisplayName: Knock Bow
+		Tooltip: "Move like a butterfly. Sting like a cotton ball. Knock back enemies like a .50 Cal. "
+	}
+
+	Zombie_Eye_Weap: {
+		DisplayName: Zombie Eye
+		Tooltip: Improvised weapon, is thrown at a light arc. Feels cursed...and squishy. 
+	}
+}
+
+Projectiles: {
+	DarkSealerProjectile.DisplayName: Dark Sealer Projectile
+	Zombie_Eye.DisplayName: Zombie_ Eye
+}
+
+NPCs: {
+	BuckyTheBucc: {
+		DisplayName: Bucky The Buccaneer
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+		}
+	}
+}
