@@ -27,12 +27,9 @@ namespace TutorialMod.NPCs
             NPC.HitSound = SoundID.NPCHit7;
             NPC.DeathSound = SoundID.NPCDeath24;
             NPC.knockBackResist = .7f;
-            Main.npcFrameCount[NPC.type] = 25;
+            Main.npcFrameCount[NPC.type] = 19;
             NPCID.Sets.ExtraFramesCount[NPC.type] = 0;
-            NPCID.Sets.AttackFrameCount[NPC.type] = 1;
-            NPCID.Sets.DangerDetectRange[NPC.type] = 300;
-            NPCID.Sets.AttackType[NPC.type] = 1;
-            NPCID.Sets.AttackTime[NPC.type] = 50;
+            
             NPCID.Sets.HatOffsetY[NPC.type] = 8;
             AnimationType = 22;
         }
